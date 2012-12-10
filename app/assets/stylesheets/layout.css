@@ -1,0 +1,45 @@
+/* layout.css
+*
+*Basic stying for the static pages
+*
+*/
+
+
+div#container {
+	display: block;
+	position: relative;
+	min-height: 1000px;
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #32CD32;
+}
+
+header#page_header {
+	background-color: #008000;
+	background-image: url(banner.png);
+	color: #32CD32;
+	padding: 5px; 15px;
+	border:5px solid #228B22;
+}
+
+nav#utility {
+	float: right;;
+	font-size: 1em;
+	
+}
+
+section#main {
+	float: left;
+	width: 700px;
+	padding: 0 15px;
+}
+
+section#sidebar {
+	margin-left: 750px;
+	padding: 10px
+}
+
+footer {
+	clear: left;
+}
