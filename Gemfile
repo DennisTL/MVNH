@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 gem 'devise'
-
 gem 'rails', '3.2.1'
 
 # Bundle edge Rails instead:
@@ -37,3 +36,17 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
+group :development do
+	gem 'sqlite3'
+	gem 'rspec-rails', '2.6.1', :require => 'respec-rails'
+	gem 'faker', '0.3.1'
+end
+
+group :test do
+	gem 'sqlite3'
+end
+
+group :production do
+	gem 'pg'
+end
+
